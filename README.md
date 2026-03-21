@@ -7,6 +7,9 @@ A side-scrolling runner game built with **SwiftUI** for macOS. Guide your charac
 ## 🎮 Gameplay Preview
 
 
+https://github.com/user-attachments/assets/26c0b912-18c0-482f-adb9-66e38156cfe6
+
+
 ---
 
 ## 🕹️ How to Play
@@ -21,6 +24,8 @@ A side-scrolling runner game built with **SwiftUI** for macOS. Guide your charac
 - Collect ⭐ stars for double points
 - Collect 🛡️ shields for temporary protection
 - Score is based on distance covered and stars collected
+
+![how-to-play](https://github.com/user-attachments/assets/ed3b4df5-4ff7-4228-ab39-ae3db52a2958)
 
 ---
 

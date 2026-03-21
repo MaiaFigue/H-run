@@ -1,29 +1,60 @@
-# H-Run
+# 🐴 H-Run
 
-## Description
-H-Run is a dynamic and engaging game developed with SwiftUI. The game involves navigating a horse through various obstacles, collecting power-ups, and scoring points. The game includes difficulty levels, unique maps, and immersive sound effects.
+A side-scrolling runner game built with **SwiftUI** for macOS. Guide your character through obstacles, collect power-ups, and survive as long as you can across three unique maps.
 
-## Features
-- Two difficulty levels: Easy (3 lives) and Hard (1 life)
-- Gameplay mechanics: Obstacle avoidance, power-ups (star and shield), scoring and game over conditions
-- Maps: Select between three maps: Desert, Under Water, and Space
-- Sound effects: Star, shield, horse collision, and horse running
-- Dynamic backgrounds for each map
+---
 
-## Usage
-1. Start the game
-2. Choose a map
-3. Select the difficulty
-4. Navigate the horse through obstacles and collect power-ups
-5. Aim for a high score
+## 🎮 Gameplay Preview
 
-## Game Controls
-- Space bar: Makes the horse jump
-- Left arrow: Move horse left
-- Right arrow: Move horse right
 
-## Game Mechanics
-- Obstacle avoidance: Avoid obstacles to not lose lives
-- Power-ups: Collect star for double scoring and shield for protection
-- Scoring: Points are given according to distance covered and stars collected
-- Cooldown mechanism: Prevents losing all lives immediately upon hitting obstacles
+---
+
+## 🕹️ How to Play
+
+| Key | Action |
+|-----|--------|
+| `Space` | Jump |
+| `←` | Move left |
+| `→` | Move right |
+
+- Avoid obstacles to keep your lives
+- Collect ⭐ stars for double points
+- Collect 🛡️ shields for temporary protection
+- Score is based on distance covered and stars collected
+
+---
+
+## 🗺️ Maps
+
+- **Desert** — Dodge cacti across a sun-scorched landscape
+- **Underwater** — Navigate as a seahorse through ocean obstacles
+- **Space** — Run as a unicorn astronaut on an alien planet
+
+---
+
+## ⚙️ Difficulty
+
+| Mode | Lives |
+|------|-------|
+| Easy | 3 |
+| Hard | 1 |
+
+---
+
+## 🛠️ Built With
+
+- **Swift** — Core game logic
+- **SwiftUI** — UI and rendering
+- **Xcode** — Development environment
+- **AVFoundation** — Sound effects (horse running, collisions, power-ups)
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repo
+   ```bash
+   git clone https://github.com/MaiaFigue/H-run.git
+   ```
+2. Open `horseGame.xcodeproj` in Xcode
+3. Build and run on macOS
